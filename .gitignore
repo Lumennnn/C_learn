@@ -1,2 +1,5 @@
 .history
 *.exe
+image
+.vscode
+*\.vs

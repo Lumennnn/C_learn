@@ -21,7 +21,7 @@ int main()
         {
             printf("重新输入一个圆半径（不能为负数）：");
         }
-    }while(!validata(radius))  // 当验证不通过的时候重新录入
+    }while(!validata(radius));  // 当验证不通过的时候重新录入
     s = calcCircle(radius);
 
     printf("圆面积为：%.2lf", s);
