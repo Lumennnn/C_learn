@@ -6,6 +6,8 @@
 #include <string.h>
 #include <Windows.h>
 
+
+
 //玩家、地图、装备、怪物
 
 //地图
@@ -48,10 +50,26 @@ typedef struct _prop
 	char desc[200]; //道具描述
 }Prop;
 
-void Init(); //初始化游戏数据
-void Show(); //显示全部数据
+//初始化游戏数据
+void Init();		
 
+//显示全部数据
+void Show();	
 
+//显示游戏欢迎信息
+void ShowWelcome(); 
+
+//显示游戏地图
+void ShowMap();	
+
+//在信息界面显示当前地图的信息
+void ShowMapInfo();
+
+//显示游戏地图下方信息
+void ShowInfomation();  
+
+//显示游戏主菜单
+void ShowMainMenu();
 
 
 

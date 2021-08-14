@@ -1,5 +1,4 @@
 ﻿  Game.c
-D:\Code\C\C_learn\ShiZhan\Game.c(93,11): warning C4476: "printf": 格式说明符中的类型字段字符“^”未知
-D:\Code\C\C_learn\ShiZhan\Game.c(93,34): warning C4474: printf: 格式字符串中传递的参数太多
-D:\Code\C\C_learn\ShiZhan\Game.c(93,34): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  源.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: 生成“已定义”的宏扩展具有未定义的行为
   ShiZhan.vcxproj -> D:\Code\C\C_learn\ShiZhan\Debug\ShiZhan.exe
